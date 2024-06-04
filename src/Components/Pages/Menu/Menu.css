@@ -68,7 +68,7 @@
   border-radius: 10px;
   display: flex;
   overflow: hidden;
-  width: calc(50% - 10px); /* Two cards in a row with gap */
+  width: calc(50% - 20px); /* Two cards in a row with gap */
   border: 1px solid #e5b638;
 }
 
