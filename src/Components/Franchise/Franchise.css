@@ -1,0 +1,154 @@
+.franchise2 {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 600px; /* Adjust the max-width to control the width on larger screens */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imgtransferant {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  height: 380px;
+  filter: brightness(0.4); /* Reduces the brightness of the image */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for better readability */
+}
+
+.franchise3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.centered-heading {
+  color: yellow;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.franchise {
+  text-align: center;
+  margin: 20px;
+}
+
+.franchise-heading {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.franchise-paragraph {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.franchise-image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.franchise-image-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 5px 10px;
+}
+
+.franchise-image {
+  opacity: 0.8;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+.form-and-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 20px 0;
+}
+
+.image-container,
+.form-container {
+  flex: 1;
+  padding: 20px;
+  max-width: 100%; /* Ensure full width on smaller screens */
+}
+
+.contact-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.form-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.tw {
+  color: white;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .franchise-heading {
+    font-size: 1.5em;
+  }
+
+  .centered-heading {
+    font-size: 20px;
+  }
+
+  .imgtransferant {
+    height: auto; /* Adjust the height for smaller screens */
+  }
+
+  .form-and-image {
+    flex-direction: column;
+  }
+
+  .image-container,
+  .form-container {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .franchise-heading {
+    font-size: 1.2em;
+  }
+
+  .centered-heading {
+    font-size: 18px;
+  }
+
+  .franchise-image-heading {
+    font-size: 1.2em;
+  }
+
+  .form-container {
+    padding: 10px;
+  }
+}

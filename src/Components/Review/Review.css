@@ -1,0 +1,189 @@
+.review-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #0d0e11;
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #fff; /* Set text color to white */
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+.form-title {
+  --hp-yellow-600: #ffc107;
+  color: var(--hp-yellow-600);
+  font-weight: 700;
+  font-size: 26px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.review-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #222326; /* Changed background color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #fff; /* Set label color to white */
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  border: 1px solid #fff; /* Set border color to white */
+  border-radius: 5px;
+  background-color: #222326; /* Changed background color */
+  color: #fff; /* Set text color to white */
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  border-color: #ffc107;
+  outline: none;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #c21f24;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+  color: white; /* Set button text color */
+}
+
+.submit-button:hover {
+  background-color: #e0a800;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .review-container {
+    flex-direction: column;
+  }
+
+  .stars {
+    max-width: 100%;
+  }
+  .element1 {
+    padding: 0 !important;
+    /* padding-top: 10px; */
+  }
+}
+
+.btnsignup {
+  align-items: center;
+  background-color: initial;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  padding: 14px 14px 15px;
+  width: 200px;
+  z-index: 1;
+}
+
+.vip {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  gap: 40px;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh;  */
+  background-color: #0d0e11;
+}
+
+.custom-card {
+  background-color: #222326;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #363636;
+  transition: border-color 0.3s ease;
+  max-width: 900px;
+  border: 1px solid rgb(228, 182, 55);
+}
+
+.title {
+  --hp-yellow-600: #ffc107;
+  color: var(--hp-yellow-600);
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 15px;
+  text-align: center; /* Center the text */
+}
+
+.vip-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vip-description {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.signup-button {
+  padding: 10px 20px;
+  background-color: #ffc107;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #222326;
+}
+
+.signup-button:hover {
+  background-color: #e0a800;
+}
+
+.element1 {
+  /* margin-top: 25px; */
+  --hp-yellow-600: #ffc107; /* Define the custom property within the class */
+  color: var(--hp-yellow-600); /* Use the custom property */
+  font-weight: 700;
+  font-size: 26px;
+  /* margin-bottom: 15px; */
+  background-color: #0d0e11;
+  padding: 20px;
+}

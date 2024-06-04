@@ -1,0 +1,305 @@
+.imagelogo {
+  height: 67px;
+  width: 263px;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header {
+  background-color: #0d0e11;
+}
+
+.navbar {
+  border-bottom: 3.5px solid rgb(228, 182, 55);
+  height: 80px;
+}
+
+.custom-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.custom-flex-item {
+  display: flex;
+  align-items: center;
+  order: 2;
+}
+
+.custom-button {
+  background-color: #c21f24;
+  height: 1.75rem;
+  border-radius: 0.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.375rem 0.75rem;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  transition: background-color 0.3s, border-color 0.3s, padding 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #e8454a;
+  border-color: #e8454a;
+}
+
+.custom-text {
+  position: relative;
+  line-height: 13px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.buttons-states-dark7 {
+  border-radius: 56px;
+  border: 1px solid #e5b638;
+  padding-top: 0;
+  padding-left: 10px;
+  padding-right: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.buttons-states-dark7:hover {
+  background-color: #b38205;
+  border-color: #b38205;
+}
+
+.header-right {
+  align-items: center;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.icon6 {
+  flex-shrink: 0;
+  height: 19px;
+  overflow: hidden;
+  position: relative;
+  width: 32px;
+}
+
+.firstlist {
+  display: flex;
+  flex-direction: row;
+  z-index: 999;
+}
+
+.navlist {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  gap: 20px;
+}
+
+.menu-item {
+  position: relative;
+  padding: 0px 12px;
+  cursor: pointer;
+}
+
+.underline {
+  background-color: #e4b637;
+  bottom: -7px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s;
+  width: 100%;
+}
+
+.menu-item:hover .underline {
+  transform: scaleX(1);
+}
+
+.text {
+  color: #fff;
+  font-family: var(--primary-font-family);
+  font-size: var(--primary-font-size);
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+/* CSS for Small Screens (Mobile) */
+@media screen and (max-width: 768px) {
+  .firstlist {
+    display: none; /* Hide the middle list on small screens */
+  }
+  .firstlist.show {
+    display: flex; /* Show the middle list when hamburger menu is clicked */
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 5px;
+  }
+  .imagelogo {
+    height: 65px;
+    width: 180px;
+  }
+
+  .custom-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding-left: 10px;
+  }
+
+  .custom-button {
+    background-color: #c21f24;
+    height: 1rem;
+    border-radius: 0.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    transition: background-color 0.3s, border-color 0.3s, padding 0.3s;
+    margin-right: 5px;
+  }
+}
+
+/* CSS for Tablets (up to 884px) */
+@media screen and (max-width: 884px) {
+  .firstlist {
+    display: none; /* Hide the middle list on tablet screens */
+  }
+  .firstlist.show {
+    display: flex; /* Show the middle list when hamburger menu is clicked */
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    padding: 5px;
+  }
+  .hamburger-menu {
+    display: block; /* Show the hamburger menu */
+    color: white;
+    margin-right: 20px;
+    font-size: medium;
+  }
+}
+
+/* CSS for Extra Small Screens (320px to 390px) */
+@media screen and (max-width: 390px) {
+  .imagelogo {
+    height: 50px;
+    width: 150px;
+  }
+
+  .navlist {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .menu-item {
+    padding: 0px 8px;
+  }
+
+  .custom-button {
+    height: 1.25rem;
+    padding: 0.25rem 0.5rem;
+  }
+
+  .header-right {
+    gap: 10px;
+  }
+
+  .hamburger-menu {
+    font-size: small;
+    margin-right: 10px;
+  }
+
+  .buttons-states-dark7 {
+    padding-left: 5px;
+    padding-right: 2px;
+  }
+
+  .icon6 {
+    height: 15px;
+    width: 25px;
+  }
+}
+
+/* CSS for Hamburger Menu */
+.hamburger-menu {
+  display: none; /* Initially hide the hamburger menu */
+  color: white;
+  margin-right: 20px;
+  font-size: medium;
+}
+
+/* Show the hamburger menu on small and tablet screens */
+@media screen and (max-width: 884px) {
+  .hamburger-menu {
+    display: block;
+    /* Add additional styles for the hamburger menu icon */
+  }
+}
+
+.dropdown-menu {
+  background: #000;
+  background: var(--header-bg);
+  border: 1px solid #e4b637;
+  border: 1px solid #e4b637;
+  border-radius: 10px;
+  display: none; /* Initially hide the dropdown */
+  opacity: 0;
+  padding: 8px 0;
+  position: absolute;
+  right: -20px;
+  top: 36px; /* Adjusted top position */
+  transition: opacity 0.3s, visibility 0.3s;
+  visibility: hidden;
+  z-index: 999;
+}
+
+.dropdown-menu.visible {
+  display: flex; /* Show the dropdown when 'visible' class is applied */
+  opacity: 1;
+  gap: 8px;
+  flex-direction: column;
+  visibility: visible;
+  color: white;
+  background-color: #000;
+  padding: 10px;
+}

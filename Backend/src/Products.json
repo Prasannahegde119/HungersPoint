@@ -1,0 +1,83 @@
+[
+    {
+      "productID": "sw001",
+      "productName": "Chicken Sandwich",
+      "image": "https://hunger.thestorywallcafe.com/media/d12e85c655a14509935f5b3ddbf33461.jpeg",
+      "category": "sandwich",
+      "price": 6.99,
+      "description": "Grilled chicken sandwich with lettuce and tomato."
+    },
+    {
+      "productID": "sw002",
+      "productName": "Veggie Sandwich",
+      "image": "https://hunger.thestorywallcafe.com/media/f4f6e5662176444681235b0249af5baa.jpeg",
+      "category": "sandwich",
+      "price": 5.99,
+      "description": "A healthy veggie sandwich with fresh vegetables."
+    },
+    {
+      "productID": "ch001",
+      "productName": "Masala Chai",
+      "image": "https://hunger.thestorywallcafe.com/media/a1c95ab10eef44e1a9f420bb154d385a.jpeg",
+      "category": "chai",
+      "price": 2.50,
+      "description": "Traditional Indian spiced tea."
+    },
+    {
+      "productID": "ch002",
+      "productName": "Green Tea",
+      "image": "https://hunger.thestorywallcafe.com/media/954f2413b86b4234a81a26a4be8e7ebd.jpeg",
+      "category": "chai",
+      "price": 2.00,
+      "description": "Refreshing green tea with antioxidants."
+    },
+    {
+      "productID": "co001",
+      "productName": "Espresso",
+      "image": "https://hunger.thestorywallcafe.com/media/6366cf77b9d9484b96d0e5e2c6d584c9.jpeg",
+      "category": "coffee",
+      "price": 3.50,
+      "description": "Strong and flavorful espresso shot."
+    },
+    {
+      "productID": "co002",
+      "productName": "Latte",
+      "image": "https://hunger.thestorywallcafe.com/media/5a7099aa884b4f909641c62935062800.jpeg",
+      "category": "coffee",
+      "price": 4.50,
+      "description": "Creamy espresso with steamed milk."
+    },
+    {
+      "productID": "si001",
+      "productName": "French Fries",
+      "image": "https://hunger.thestorywallcafe.com/media/3bf536565c4344cdb6dffe337c4e3f1a.png",
+      "category": "sides",
+      "price": 3.00,
+      "description": "Crispy golden French fries."
+    },
+    {
+      "productID": "si002",
+      "productName": "Onion Rings",
+      "image": "https://hunger.thestorywallcafe.com/media/e623da3b69824a8ba3f6437c38f38198.png",
+      "category": "sides",
+      "price": 4.00,
+      "description": "Crunchy onion rings coated in batter."
+    },
+    {
+      "productID": "sw003",
+      "productName": "Gajrela",
+      "image": "https://hunger.thestorywallcafe.com/media/19486c6757be46ecb12fe57e2b440be6.jpeg",
+      "category": "Sweets",
+      "price": 7.50,
+      "description": "Classic turkey sandwich with lettuce and mayo."
+    },
+    {
+      "productID": "sw004",
+      "productName": "Jalebi",
+      "image": "https://hunger.thestorywallcafe.com/media/23eeb29e532f462088534bd2c73fe4c7.jpeg",
+      "category": "Sweets",
+      "price": 6.50,
+      "description": "Bacon, lettuce, and tomato sandwich on toasted bread."
+    }
+  ]
+  
