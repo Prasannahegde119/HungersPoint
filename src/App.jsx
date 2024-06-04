@@ -7,7 +7,7 @@ import Careers from "./Components/Pages/Careers/Careers";
 import ContactUs from "./Components/Pages/Contactus/ContactUs";
 import OurStory from "./Components/Pages/Ourstory/OurStory";
 import Menu from "./Components/Pages/Menu/Menu";
-
+import Pagenotfound from "./Components/Pages/NotFound/Pagenotfound";
 function App() {
   return (
     <BrowserRouter>
@@ -19,6 +19,7 @@ function App() {
         <Route path="contactus" element={<ContactUs />} />
         <Route path="ourstory" element={<OurStory />} />
         <Route path="menu" element={<Menu />} />
+        <Route path="*" element={<Pagenotfound />} />
       </Routes>
     </BrowserRouter>
   );
