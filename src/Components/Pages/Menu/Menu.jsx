@@ -19,7 +19,9 @@ function Menu() {
 
   const fetchCategories = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/categories");
+      const response = await fetch(
+        "https://backend-hungers.onrender.com/api/categories"
+      );
       const data = await response.json();
       setCategories(data);
     } catch (error) {
@@ -29,7 +31,9 @@ function Menu() {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/products");
+      const response = await fetch(
+        "https://backend-hungers.onrender.com/api/products"
+      );
       const data = await response.json();
       setProducts(data);
     } catch (error) {
@@ -40,7 +44,7 @@ function Menu() {
   const fetchProductsByCategory = async (category) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/products/${category}`
+        `https://backend-hungers.onrender.com/api/products/${category}`
       );
       const data = await response.json();
       setProducts(data);
