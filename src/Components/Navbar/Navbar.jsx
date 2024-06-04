@@ -20,8 +20,8 @@ function Navbar() {
   };
 
   return (
-    <div>
-      <header className="header">
+    <div className="sticky-top">
+      <header className="header sticky-top">
         <nav className="navbar">
           <div className="custom-flex-container">
             <div className="nav-content">

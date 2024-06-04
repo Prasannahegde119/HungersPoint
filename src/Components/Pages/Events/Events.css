@@ -1,7 +1,7 @@
 .eventimage {
   width: 100%;
   height: auto;
-  /* border-radius: 20px; */
+  display: block;
 }
 
 .container {
