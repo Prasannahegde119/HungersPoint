@@ -8,6 +8,8 @@ import ContactUs from "./Components/Pages/Contactus/ContactUs";
 import OurStory from "./Components/Pages/Ourstory/OurStory";
 import Menu from "./Components/Pages/Menu/Menu";
 import Pagenotfound from "./Components/Pages/NotFound/Pagenotfound";
+import Pagenotfound from "./Components/Pages/NotFound/Pagenotfound";
+
 function App() {
   return (
     <BrowserRouter>
