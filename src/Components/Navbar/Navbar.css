@@ -147,10 +147,10 @@
 /* CSS for Small Screens (Mobile) */
 @media screen and (max-width: 768px) {
   .firstlist {
-    display: none; /* Hide the middle list on small screens */
+    display: none;
   }
   .firstlist.show {
-    display: flex; /* Show the middle list when hamburger menu is clicked */
+    display: flex;
     flex-direction: column;
     width: 100%;
     background-color: black;
@@ -173,6 +173,7 @@
     margin-right: auto;
     max-width: 1280px;
     padding-left: 10px;
+    justify-content: space-evenly;
   }
 
   .custom-button {
@@ -213,19 +214,11 @@
     font-size: medium;
   }
 }
-
-@media screen and (max-width: 333px) {
-  .imagelogo {
-    height: 50px;
-    width: 130px !important;
-  }
-}
-
 /* CSS for Extra Small Screens (320px to 390px) */
 @media screen and (max-width: 390px) {
   .imagelogo {
     height: 50px;
-    width: 150px;
+    width: 130px;
   }
 
   .navlist {
